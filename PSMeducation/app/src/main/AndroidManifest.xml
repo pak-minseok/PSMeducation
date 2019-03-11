@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="itm.com.psmeducation">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".pasre.DemoParse">
+
+        <activity
+            android:name=".IntroActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".pasre.MActivity"></activity>
+        <activity android:name=".pasre.Register"></activity>
+        <activity android:name=".custom.CustomActivity"></activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".UserList"/>
+        <activity android:name=".TabAndListView"/>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_1"/>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_2"></activity>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_3"></activity>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_4"></activity>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_5"></activity>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_6"></activity>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_7"></activity>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_8"></activity>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_9"></activity>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_10"></activity>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_11"></activity>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_12"></activity>
+        <activity android:name=".ScreenActivity1.ScreenActivity1_13"></activity>
+        <activity android:name=".ScreenActivity2.ScreenActivity2_1"></activity>
+        <activity android:name=".ScreenActivity2.ScreenActivity2_2"></activity>
+        <activity android:name=".ScreenActivity2.ScreenActivity2_3"></activity>
+        <activity android:name=".ScreenActivity2.ScreenActivity2_4"></activity>
+        <activity android:name=".ScreenActivity2.ScreenActivity2_5"></activity>
+        <activity android:name=".ScreenActivity3.ScreenActivity3_1"></activity>
+        <activity android:name=".ScreenActivity3.ScreenActivity3_2"></activity>
+        <activity android:name=".ScreenActivity3.ScreenActivity3_3"></activity>
+        <activity android:name=".ScreenActivity3.ScreenActivity3_4"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_1"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_2"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_3"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_4"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_5"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_6"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_7"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_8"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_9"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_10"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_11"></activity>
+        <activity android:name=".ScreenActivity4.ScreenActivity4_12"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_1"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_2"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_3"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_4"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_5"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_6"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_7"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_8"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_9"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_10"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_11"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_12"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_13"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_14"></activity>
+        <activity android:name=".ScreenActivity5.ScreenActivity5_15"></activity>
+        <activity android:name=".Content.content1"/>
+        <activity android:name=".Content.content2"/>
+        <activity android:name=".Content.content3"/>
+        <activity android:name=".Content.content4"/>
+        <activity android:name=".Content.content5"/>
+        <activity android:name=".Problem.Problem1"/>
+        <activity android:name=".Problem.Problem2"/>
+        <activity android:name=".Problem.Problem3"/>
+        <activity android:name=".Problem.Problem4"/>
+        <activity android:name=".Problem.Problem5"/>
+        <activity android:name=".Problem.Problem6"/>
+        <activity android:name=".Problem.Problem7"/>
+        <activity android:name=".Problem.Problem8"/>
+        <activity android:name=".Problem.Problem9"/>
+        <activity android:name=".Problem.Problem10"/>
+        <activity android:name=".Problem.Problem11"/>
+        <activity android:name=".Problem.Problem12"/>
+        <activity android:name=".Problem.Problem13"/>
+        <activity android:name=".Problem.Problem14"/>
+        <activity android:name=".Problem.Problem15"/>
+        <activity android:name=".Problem.Problem16"/>
+        <activity android:name=".Problem.Problem17"/>
+        <activity android:name=".Problem.Problem18"/>
+        <activity android:name=".Problem.Problem19"/>
+        <activity android:name=".Problem.Problem20"/>
+        <activity android:name=".Result"/>
+        <activity android:name=".ShowResult"></activity>
+        <activity android:name=".incorrectnote"></activity>
+    </application>
+
+</manifest>

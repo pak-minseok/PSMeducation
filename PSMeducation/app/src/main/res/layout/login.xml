@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp"
+              android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo_app"/>
+
+    <EditText
+        android:id="@+id/edt_username"
+        style="edittext_bg_gray"
+
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/user_name"
+        android:hint="사용자 이름"
+
+        >
+        <requestFocus/>
+</EditText>
+    <EditText
+        android:id="@+id/edt_password"
+        style="edittext_bg_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_pass"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnRegister"
+            style="btn_while_large"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="0.60"
+            />
+        <Button
+            android:id="@+id/btnLogin"
+            style="btn_while_large"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="0.63"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

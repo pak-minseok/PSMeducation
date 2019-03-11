@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo_app"/>
+
+    <EditText
+        android:id="@+id/user"
+        style="edittext_bg_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/user_name"
+        android:hint="사용자 이름"
+        android:inputType="text"
+        >
+
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:id="@+id/email"
+        style="edittext_bg_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/user_name"
+        android:hint="이메일"
+
+        />
+
+    <EditText
+        android:id="@+id/pwd"
+        style="edittext_bg_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_pass"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="btn_while_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/registercompleted"
+        android:layout_gravity="center"
+
+        />
+
+</LinearLayout>
